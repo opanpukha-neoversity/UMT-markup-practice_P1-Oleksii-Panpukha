@@ -70,7 +70,27 @@
     </header>
 
     <main>
-      <section class="section-wrapper hero-section">
+      <section class="hero-section">
+        <div class="hero-image-wrapper">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/webp/bouquets/bouquet-hero@X1.webp 1x,
+                images/webp/bouquets/bouquet-hero@X2.webp 2x
+              "
+            />
+            <img
+              fetchpriority="high"
+              src="./images/bouquets/bouquet-hero@X1.jpg"
+              srcset="images/bouquets/bouquet-hero@X2.jpg 2x"
+              alt="Brighten Your Day with Our Stunning Bouquets"
+              class="hero-image"
+              width="1440"
+              height="669"
+            />
+          </picture>
+        </div>
         <div class="container">
           <div class="hero-content">
             <h1 class="hero-title">Brighten Your Day with Our Stunning Bouquets</h1>
@@ -79,26 +99,6 @@
               crafted arrangements are designed to bring joy and elegance to your celebrations.
             </p>
             <button type="button" class="primary-button">Explore Our Bestsellers</button>
-          </div>
-          <div class="hero-image-wrapper">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  images/webp/bouquets/bouquet-hero@X1.webp 1x,
-                  images/webp/bouquets/bouquet-hero@X2.webp 2x
-                "
-              />
-              <img
-                fetchpriority="high"
-                src="./images/bouquets/bouquet-hero@X1.jpg"
-                srcset="images/bouquets/bouquet-hero@X2.jpg 2x"
-                alt="Brighten Your Day with Our Stunning Bouquets"
-                class="hero-image"
-                width="1440"
-                height="669"
-              />
-            </picture>
           </div>
         </div>
       </section>
@@ -540,7 +540,14 @@
               </svg>
               <div class="contact-details">
                 <p class="contact-label">Store</p>
-                <p class="contact-text">456 Floral Ave, Sydney NSW 2000 AU</p>
+                <a
+                  href="https://maps.google.com/?q=456+Floral+Ave,+Sydney+NSW+2000,+AU"
+                  class="contact-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  456 Floral Ave, Sydney NSW 2000 AU
+                </a>
               </div>
             </div>
           </address>
