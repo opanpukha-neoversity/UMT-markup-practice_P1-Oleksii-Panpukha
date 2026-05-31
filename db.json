@@ -1,0 +1,362 @@
+{
+  "bouquets": [
+    {
+      "id": 1,
+      "title": "Peach Meadow",
+      "price": 55,
+      "description": "A soft and radiant arrangement of peach and blush roses with lush greenery in a straw basket — light and natural.",
+      "category": "spring",
+      "image": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.jpg",
+      "image2x": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.jpg",
+      "webp": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.webp",
+      "webp2x": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.webp"
+    },
+    {
+      "id": 2,
+      "title": "Blush Romance",
+      "price": 34,
+      "description": "A premium bouquet of deep pink and ivory roses, complemented by silver eucalyptus — sophisticated and intimate.",
+      "category": "romantic",
+      "image": "images/bouquets/florist-makes-beautiful-bouquet-studio@X1.jpg",
+      "image2x": "images/bouquets/florist-makes-beautiful-bouquet-studio@X2.jpg",
+      "webp": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X1.webp",
+      "webp2x": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X2.webp"
+    },
+    {
+      "id": 3,
+      "title": "Pastel Garden",
+      "price": 40,
+      "description": "A pastel-toned mix of spray roses and greenery in a woven basket — gentle, airy, and perfect for any occasion.",
+      "category": "spring",
+      "image": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.jpg",
+      "image2x": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.jpg",
+      "webp": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.webp",
+      "webp2x": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.webp"
+    },
+    {
+      "id": 4,
+      "title": "Tulip Charm",
+      "price": 61,
+      "description": "A vivid bouquet of bright tulips and roses in a lavender box — cheerful and full of charm.",
+      "category": "bright",
+      "image": "images/bouquets/mixed-flower-composition-side-view@X1.jpg",
+      "image2x": "images/bouquets/mixed-flower-composition-side-view@X2.jpg",
+      "webp": "images/webp/bouquets/mixed-flower-composition-side-view@X1.webp",
+      "webp2x": "images/webp/bouquets/mixed-flower-composition-side-view@X2.webp"
+    },
+    {
+      "id": 5,
+      "title": "Berry Bloom",
+      "price": 32,
+      "description": "A lush mix of rich pink, purple, and cream blooms with textured greens — romantic and elegant.",
+      "category": "romantic",
+      "image": "images/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X1.jpg",
+      "image2x": "images/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X2.jpg",
+      "webp": "images/webp/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X1.webp",
+      "webp2x": "images/webp/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X2.webp"
+    },
+    {
+      "id": 6,
+      "title": "Sweet Whisper",
+      "price": 40,
+      "description": "A charming spring bouquet with peonies, roses, and lilac-toned accents — fresh, lively, and expressive.",
+      "category": "spring",
+      "image": "images/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X1.jpg",
+      "image2x": "images/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X2.jpg",
+      "webp": "images/webp/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X1.webp",
+      "webp2x": "images/webp/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X2.webp"
+    },
+    {
+      "id": 7,
+      "title": "Field Joy",
+      "price": 49,
+      "description": "A rustic hand-tied bouquet of sunflowers, lisianthus, and daisies — perfect for brightening the day.",
+      "category": "bright",
+      "image": "images/bouquets/wild-flowers@X1.jpg",
+      "image2x": "images/bouquets/wild-flowers@X2.jpg",
+      "webp": "images/webp/bouquets/wild-flowers@X1.webp",
+      "webp2x": "images/webp/bouquets/wild-flowers@X2.webp"
+    },
+    {
+      "id": 8,
+      "title": "Soft Bloom",
+      "price": 37,
+      "description": "A delicate bouquet of pink carnations and roses wrapped in satin paper — soft, stylish, and versatile.",
+      "category": "romantic",
+      "image": "images/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X1.jpg",
+      "image2x": "images/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X2.jpg",
+      "webp": "images/webp/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X1.webp",
+      "webp2x": "images/webp/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X2.webp"
+    },
+    {
+      "id": 9,
+      "title": "Spring Elegance",
+      "price": 35,
+      "description": "A delicate blend of peonies, tulips, and roses — perfect for springtime gifting and bright smiles.",
+      "category": "spring",
+      "image": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.jpg",
+      "image2x": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.jpg",
+      "webp": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.webp",
+      "webp2x": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.webp"
+    },
+    {
+      "id": 10,
+      "title": "Crimson Rose",
+      "price": 55,
+      "description": "A stylish composition of roses, seasonal greenery, and vibrant berries — a bold and elegant floral statement.",
+      "category": "romantic",
+      "image": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.jpg",
+      "image2x": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.jpg",
+      "webp": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.webp",
+      "webp2x": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.webp"
+    },
+    {
+      "id": 11,
+      "title": "Sunny Bliss",
+      "price": 40,
+      "description": "A rich bouquet with lavender, lisianthus, and roses — ideal for those who love deep hues and gentle fragrance.",
+      "category": "bright",
+      "image": "images/bouquets/mixed-flower-bouquet-wooden-table@X1.jpg",
+      "image2x": "images/bouquets/mixed-flower-bouquet-wooden-table@X2.jpg",
+      "webp": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X1.webp",
+      "webp2x": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X2.webp"
+    },
+    {
+      "id": 12,
+      "title": "Peach Meadow",
+      "price": 58,
+      "description": "A soft and radiant arrangement of peach and blush roses with lush greenery in a straw basket — light and natural.",
+      "category": "spring",
+      "image": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.jpg",
+      "image2x": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.jpg",
+      "webp": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.webp",
+      "webp2x": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.webp"
+    },
+    {
+      "id": 13,
+      "title": "Blush Romance",
+      "price": 37,
+      "description": "A premium bouquet of deep pink and ivory roses, complemented by silver eucalyptus — sophisticated and intimate.",
+      "category": "romantic",
+      "image": "images/bouquets/florist-makes-beautiful-bouquet-studio@X1.jpg",
+      "image2x": "images/bouquets/florist-makes-beautiful-bouquet-studio@X2.jpg",
+      "webp": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X1.webp",
+      "webp2x": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X2.webp"
+    },
+    {
+      "id": 14,
+      "title": "Pastel Garden",
+      "price": 43,
+      "description": "A pastel-toned mix of spray roses and greenery in a woven basket — gentle, airy, and perfect for any occasion.",
+      "category": "spring",
+      "image": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.jpg",
+      "image2x": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.jpg",
+      "webp": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.webp",
+      "webp2x": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.webp"
+    },
+    {
+      "id": 15,
+      "title": "Tulip Charm",
+      "price": 64,
+      "description": "A vivid bouquet of bright tulips and roses in a lavender box — cheerful and full of charm.",
+      "category": "bright",
+      "image": "images/bouquets/mixed-flower-composition-side-view@X1.jpg",
+      "image2x": "images/bouquets/mixed-flower-composition-side-view@X2.jpg",
+      "webp": "images/webp/bouquets/mixed-flower-composition-side-view@X1.webp",
+      "webp2x": "images/webp/bouquets/mixed-flower-composition-side-view@X2.webp"
+    },
+    {
+      "id": 16,
+      "title": "Berry Bloom",
+      "price": 35,
+      "description": "A lush mix of rich pink, purple, and cream blooms with textured greens — romantic and elegant.",
+      "category": "romantic",
+      "image": "images/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X1.jpg",
+      "image2x": "images/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X2.jpg",
+      "webp": "images/webp/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X1.webp",
+      "webp2x": "images/webp/bouquets/exotic-rustic-bunch-flowers-mixed-colors@X2.webp"
+    },
+    {
+      "id": 17,
+      "title": "Sweet Whisper",
+      "price": 43,
+      "description": "A charming spring bouquet with peonies, roses, and lilac-toned accents — fresh, lively, and expressive.",
+      "category": "spring",
+      "image": "images/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X1.jpg",
+      "image2x": "images/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X2.jpg",
+      "webp": "images/webp/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X1.webp",
+      "webp2x": "images/webp/bouquets/basket-filled-with-assorted-colorful-flowers-notecard@X2.webp"
+    },
+    {
+      "id": 18,
+      "title": "Field Joy",
+      "price": 52,
+      "description": "A rustic hand-tied bouquet of sunflowers, lisianthus, and daisies — perfect for brightening the day.",
+      "category": "bright",
+      "image": "images/bouquets/wild-flowers@X1.jpg",
+      "image2x": "images/bouquets/wild-flowers@X2.jpg",
+      "webp": "images/webp/bouquets/wild-flowers@X1.webp",
+      "webp2x": "images/webp/bouquets/wild-flowers@X2.webp"
+    },
+    {
+      "id": 19,
+      "title": "Soft Bloom",
+      "price": 40,
+      "description": "A delicate bouquet of pink carnations and roses wrapped in satin paper — soft, stylish, and versatile.",
+      "category": "romantic",
+      "image": "images/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X1.jpg",
+      "image2x": "images/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X2.jpg",
+      "webp": "images/webp/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X1.webp",
+      "webp2x": "images/webp/bouquets/close-up-bouquet-decorated-vintage-style-dark-background@X2.webp"
+    },
+    {
+      "id": 20,
+      "title": "Spring Elegance",
+      "price": 38,
+      "description": "A delicate blend of peonies, tulips, and roses — perfect for springtime gifting and bright smiles.",
+      "category": "spring",
+      "image": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.jpg",
+      "image2x": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.jpg",
+      "webp": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.webp",
+      "webp2x": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.webp"
+    },
+    {
+      "id": 21,
+      "title": "Crimson Rose",
+      "price": 58,
+      "description": "A stylish composition of roses, seasonal greenery, and vibrant berries — a bold and elegant floral statement.",
+      "category": "romantic",
+      "image": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.jpg",
+      "image2x": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.jpg",
+      "webp": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.webp",
+      "webp2x": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.webp"
+    },
+    {
+      "id": 22,
+      "title": "Sunny Bliss",
+      "price": 43,
+      "description": "A rich bouquet with lavender, lisianthus, and roses — ideal for those who love deep hues and gentle fragrance.",
+      "category": "bright",
+      "image": "images/bouquets/mixed-flower-bouquet-wooden-table@X1.jpg",
+      "image2x": "images/bouquets/mixed-flower-bouquet-wooden-table@X2.jpg",
+      "webp": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X1.webp",
+      "webp2x": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X2.webp"
+    },
+    {
+      "id": 23,
+      "title": "Peach Meadow",
+      "price": 58,
+      "description": "A soft and radiant arrangement of peach and blush roses with lush greenery in a straw basket — light and natural.",
+      "category": "spring",
+      "image": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.jpg",
+      "image2x": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.jpg",
+      "webp": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.webp",
+      "webp2x": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.webp"
+    },
+    {
+      "id": 24,
+      "title": "Blush Romance",
+      "price": 40,
+      "description": "A premium bouquet of deep pink and ivory roses, complemented by silver eucalyptus — sophisticated and intimate.",
+      "category": "romantic",
+      "image": "images/bouquets/florist-makes-beautiful-bouquet-studio@X1.jpg",
+      "image2x": "images/bouquets/florist-makes-beautiful-bouquet-studio@X2.jpg",
+      "webp": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X1.webp",
+      "webp2x": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X2.webp"
+    }
+  ],
+  "bestsellers": [
+    {
+      "id": 1,
+      "title": "Spring Elegance",
+      "price": 35,
+      "description": "A delicate blend of peonies, tulips, and roses — perfect for springtime gifting and bright smiles.",
+      "image": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.jpg",
+      "image2x": "images/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.jpg",
+      "webp": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X1.webp",
+      "webp2x": "images/webp/bouquets/perfect-gift-wonderful-flowers-womens-day-tender-smiling-brunet-woman-holding-front-face-bouquet-spring-flowerspace-text@X2.webp"
+    },
+    {
+      "id": 2,
+      "title": "Crimson Rose",
+      "price": 55,
+      "description": "A stylish composition of roses, seasonal greenery, and vibrant berries — a bold and elegant floral statement.",
+      "image": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.jpg",
+      "image2x": "images/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.jpg",
+      "webp": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X1.webp",
+      "webp2x": "images/webp/bouquets/bridal-arrangement-wedding-flowers-closeup-decoration-roses-flowers-ornamental-plants-closeup@X2.webp"
+    },
+    {
+      "id": 3,
+      "title": "Sunny Bliss",
+      "price": 40,
+      "description": "A rich bouquet with lavender, lisianthus, and roses — ideal for those who love deep hues and gentle fragrance.",
+      "image": "images/bouquets/mixed-flower-bouquet-wooden-table@X1.jpg",
+      "image2x": "images/bouquets/mixed-flower-bouquet-wooden-table@X2.jpg",
+      "webp": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X1.webp",
+      "webp2x": "images/webp/bouquets/mixed-flower-bouquet-wooden-table@X2.webp"
+    },
+    {
+      "id": 4,
+      "title": "Peach Meadow",
+      "price": 55,
+      "description": "A soft and radiant arrangement of peach and blush roses with lush greenery in a straw basket — light and natural.",
+      "image": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.jpg",
+      "image2x": "images/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.jpg",
+      "webp": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X1.webp",
+      "webp2x": "images/webp/bouquets/side-view-rose-bouquet-with-wildflowers-pink-basket@X2.webp"
+    },
+    {
+      "id": 5,
+      "title": "Blush Romance",
+      "price": 34,
+      "description": "A premium bouquet of deep pink and ivory roses, complemented by silver eucalyptus — sophisticated and intimate.",
+      "image": "images/bouquets/florist-makes-beautiful-bouquet-studio@X1.jpg",
+      "image2x": "images/bouquets/florist-makes-beautiful-bouquet-studio@X2.jpg",
+      "webp": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X1.webp",
+      "webp2x": "images/webp/bouquets/florist-makes-beautiful-bouquet-studio@X2.webp"
+    },
+    {
+      "id": 6,
+      "title": "Pastel Garden",
+      "price": 40,
+      "description": "A pastel-toned mix of spray roses and greenery in a woven basket — gentle, airy, and perfect for any occasion.",
+      "image": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.jpg",
+      "image2x": "images/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.jpg",
+      "webp": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X1.webp",
+      "webp2x": "images/webp/bouquets/big-basket-mixed-flowers-standing-table-with-christmas-cones@X2.webp"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "author": "Emma T.",
+      "text": "Flora made my anniversary unforgettable with their beautiful arrangement!"
+    },
+    {
+      "id": 2,
+      "author": "Daniel R.",
+      "text": "Absolutely stunning bouquet! It looked even better than the photo and arrived right on time."
+    },
+    {
+      "id": 3,
+      "author": "Olivia M.",
+      "text": "The service was exceptional, and the flowers were fresh!"
+    },
+    {
+      "id": 4,
+      "author": "Jack F.",
+      "text": "Fresh flowers, clean packaging and very friendly support. I will order again."
+    },
+    {
+      "id": 5,
+      "author": "Sofia K.",
+      "text": "The bouquet was delivered quickly and looked exactly like the photo."
+    },
+    {
+      "id": 6,
+      "author": "Mia W.",
+      "text": "Beautiful colors and a very elegant composition. Perfect gift experience."
+    }
+  ]
+}

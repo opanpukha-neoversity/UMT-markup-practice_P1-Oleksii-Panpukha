@@ -1,0 +1,17 @@
+{
+  "name": "umt-markup-practice-p1-oleksii-panpukha",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "api": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "json-server": "^0.17.4",
+    "vite": "^6.0.0"
+  },
+  "devDependencies": {}
+}
