@@ -122,10 +122,6 @@ function updateLoadMoreVisibility(currentItemsCount) {
   const hasMore = currentItemsCount > 0 && renderedCount < state.totalItems;
 
   loadMoreBtn.style.display = hasMore ? 'inline-flex' : 'none';
-
-  if (!hasMore && renderedCount > 0) {
-    showMessage("You've viewed all bouquets in this collection.");
-  }
 }
 
 async function renderBouquets({ reset = false } = {}) {

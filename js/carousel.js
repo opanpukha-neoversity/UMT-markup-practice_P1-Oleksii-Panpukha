@@ -75,47 +75,71 @@ function setupSlider({ wrapperSelector, listSelector, prevButtonSelector, nextBu
 
   let dots = [];
 
-  const getGap = () => parseFloat(window.getComputedStyle(list).gap) || 0;
-  const getStep = () => (list.children[0]?.getBoundingClientRect().width || 0) + getGap();
-  const getCurrentIndex = () => {
-    const step = getStep();
-    return step ? Math.round(list.scrollLeft / step) : 0;
-  };
-  const getMaxIndex = () => Math.max(0, list.children.length - 1);
+  const getGap = () => parseFloat(window.getComputedStyle(list).columnGap || window.getComputedStyle(list).gap) || 0;
 
-  const scrollToIndex = index => {
-    const safeIndex = Math.max(0, Math.min(index, getMaxIndex()));
-    list.scrollTo({ left: safeIndex * getStep(), behavior: 'smooth' });
+  const getStep = () => {
+    const firstItem = list.children[0];
+    return firstItem ? firstItem.getBoundingClientRect().width + getGap() : 0;
+  };
+
+  const getVisibleItemsCount = () => {
+    const step = getStep();
+    if (!step) return 1;
+
+    return Math.max(1, Math.round((list.clientWidth + getGap()) / step));
+  };
+
+  const getPageCount = () => {
+    const visibleItemsCount = getVisibleItemsCount();
+    return Math.max(1, Math.ceil(list.children.length / visibleItemsCount));
+  };
+
+  const getMaxPage = () => getPageCount() - 1;
+
+  const getCurrentPage = () => {
+    const pageWidth = getStep() * getVisibleItemsCount();
+    if (!pageWidth) return 0;
+
+    return Math.min(getMaxPage(), Math.round(list.scrollLeft / pageWidth));
+  };
+
+  const scrollToPage = page => {
+    const safePage = Math.max(0, Math.min(page, getMaxPage()));
+    const left = safePage * getStep() * getVisibleItemsCount();
+
+    list.scrollTo({ left, behavior: 'smooth' });
   };
 
   const updateDots = () => {
-    const currentIndex = getCurrentIndex();
-    dots.forEach((dot, index) => dot.classList.toggle('active', index === currentIndex));
+    const currentPage = getCurrentPage();
+    dots.forEach((dot, index) => dot.classList.toggle('active', index === currentPage));
   };
 
   const updateButtons = () => {
-    const currentIndex = getCurrentIndex();
-    if (prevButton) prevButton.disabled = currentIndex <= 0;
-    if (nextButton) nextButton.disabled = currentIndex >= getMaxIndex();
+    const currentPage = getCurrentPage();
+
+    if (prevButton) prevButton.disabled = currentPage <= 0;
+    if (nextButton) nextButton.disabled = currentPage >= getMaxPage();
   };
 
   const createDots = () => {
     if (!dotsContainer) return;
+
     dotsContainer.innerHTML = '';
 
-    Array.from(list.children).forEach((_, index) => {
+    for (let index = 0; index < getPageCount(); index += 1) {
       const dot = document.createElement('li');
       dot.classList.add('dot');
       if (index === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => scrollToIndex(index));
+      dot.addEventListener('click', () => scrollToPage(index));
       dotsContainer.appendChild(dot);
-    });
+    }
 
     dots = Array.from(dotsContainer.querySelectorAll('.dot'));
   };
 
-  prevButton?.addEventListener('click', () => scrollToIndex(getCurrentIndex() - 1));
-  nextButton?.addEventListener('click', () => scrollToIndex(getCurrentIndex() + 1));
+  prevButton?.addEventListener('click', () => scrollToPage(getCurrentPage() - 1));
+  nextButton?.addEventListener('click', () => scrollToPage(getCurrentPage() + 1));
 
   list.addEventListener('scroll', () => {
     requestAnimationFrame(() => {

@@ -387,7 +387,14 @@ a {
 }
 
 .slider-btn:hover {
-  border-color: var(--primary-text);
+  border-color: #D9FBCF;
+  background-color: #D9FBCF;
+}
+
+.slider-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 /* Catalog (Bouquets) */
